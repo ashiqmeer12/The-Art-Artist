@@ -1,53 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- style sheet file -->
+    <title>Arts&Artict</title>
+    <!-- link of style sheet file -->
     <link rel="stylesheet" href="style.css">
-    <!-- font awsome file link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Nidu Arts</title>
+    <!-- link of fontawoseme librery file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link of google font file -->
+    <link href='https://fonts.googleapis.com/css?family=Rhodium Libre' rel='stylesheet'>
+    <!-- lili font family -->
+    <link href='https://fonts.googleapis.com/css?family=Lily Script One' rel='stylesheet'>
+    <!-- linki of font  -->
+    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+    <!-- link of font graduate -->
+    <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
 </head>
+
 <body>
     <!-- the navigation bar of websit -->
-   <nav class="navbar">
-    <div class="navbar-logo">
-        <a href="#">
-            <img src="./images/logo.png" alt="This is side logo">
-        </a>
-    </div>
-    <div class="navbar-items">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-        
-            <input type="search" placeholder="search Here " >
-            <i class="fa-solid fa-magnifying-glass"></i>
-        
-    </div>
-   </nav>
-   <!-- the hero section -->
-    <section class="hero-section">
-        <div class="hero-text">
-            <h1>let's Explore <span class="hero-text-highlight">&</span>Art Crafts</h1>
-            <p>have a project? lets work together</p>
-        </div>
-        <div class="hero-image">
+    <nav class="navbar" id="Home">
+        <div class="navbar-logo hover">
             <a href="#">
-                <img src="./images/hero-image.jpg" width="150px" height="150px" alt="this is hero images">
+                <img src="./image/logo.png" alt="This is side logo">
             </a>
         </div>
-        <div class="hero-icons">
-            <button>Get in Touch</button>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
+        <div class="navbar-items">
+            <ul>
+                <li class="hover"><a href="#Home">Home</a></li>
+                <li class="hover"><a href="#About">About Us</a></li>
+                <li class="hover"><a href="#Project">Project</a></li>
+                <li class="hover"><a href="#Gallery">Gallery</a></li>
+                <li class="hover"><a href="#Contact">Contact Us</a></li>
+            </ul>
+            <div class="navbar-search hover">
+                <input type="search" placeholder="search Here " class="navbar-searchs">
+                <button type="submit"> <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- the hero section -->
+    <section class="hero">
+
+        <div class="hero-section">
+            <div class="hero-text">
+                <h1> <span class="hero-text-style1">Let's explore</span><span class="hero-text-highlight">&</span><br>
+                    <span class="hero-text-style2">Art</span> <span class="hero-text-style3">Crafts</span>
+                </h1>
+                <p class="hero-text-para">have a project? lets work together</p>
+            </div>
+            <div class="hero-image">
+                <a href="#">
+                    <img src="./image/heroimage.png" width="150px" height="150px" alt="this is hero images">
+                </a>
+            </div>
+        </div>
+        <div class="hero-icons-section">
+            <div class="hero-button hover"> <button>Get in Touch</button>
+            </div>
+            <div class="hero-icons">
+                <a href="#">
+                    <i class="fa-brands fa-facebook hover"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram hover"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in hover"></i>
+                </a>
+            </div>
         </div>
     </section>
+
+
+    <section class="about" id="About">
+        <div class="about-section-one">
+            <div class="about-heading">
+                <h2>About us</h2>
+                <h3>Art of Life</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                    "Art is the language of the heart, painted with love and shaped by the patience of time."
+                    <button>show more</button>
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="/image/about-section-one-image.png" alt=" this is the image of about first section">
+            </div>
+        </div>
+        </div>
+        <div class="about-section-two">
+            <div class="about-image">
+                <img src="/image/about-section-2-image.png" alt="this is the image of about second section">
+            </div>
+            <div class="about-heading about-section-heading2">
+                <h3>Nature & Arts</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                    "Art is the language of the heart, painted with love and shaped by the patience of time."
+                    <button>show more</button>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="Project">
+        <div class="project-intro">
+            <h2>Project & colleibration</h2>
+            <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                <br>
+                "Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+            </p>
+            <img src="/image/project.png" alt="">
+        </div>
+        <div class="project-cards">
+            <div class="project-details shodow1">
+                <img src="./image/p1.png" alt="">
+                <h3>name</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                </p>
+            </div>
+            <div class="project-details project-details-second-colom shodow2">
+                <img src="./image/p2.png " alt="">
+                <h3>name</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                </p>
+            </div>
+            <div class="project-details shodow1">
+                <img src="./image/p9.png" alt="">
+                <h3>name</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                </p>
+            </div>
+            <div class="project-details shodow2">
+                <img src="./image/p11.png" alt="">
+                <h3>name</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                </p>
+            </div>
+            <div class="project-details shadow3">
+                <img src="./image/p5.png" alt="">
+                <h3>name</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                </p>
+            </div>
+            <div class="project-details">
+                <img src="./image/p6.png" alt="">
+                <h3>name</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                </p>
+            </div>
+            <div class="project-details">
+                <img src="/image/p7.png" alt="">
+                <h3>name</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                </p>
+            </div>
+            <div class="project-details">
+                <img src="/image/p8.png" alt="">
+                <h3>name</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                </p>
+            </div>
+            <div class="project-details">
+                <img src="/image/p3.png" alt="">
+                <h3>name</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                </p>
+            </div>
+            <div class="project-details showdo4">
+                <img src="/image/p10.png " alt="">
+                <h3>name</h3>
+                <p>"Every stroke is a whisper of love, every color a testament to patience – art that speaks to the
+                    soul."Creating with love, refining with patience – where passion meets perfection on the canvas."
+                </p>
+
+            </div>
+        </div>
+        <div class="project-button button">
+            <button class="hover">see all</button>
+        </div>
+    </section>
+        <!-- sectio of Art Gallery -->
+    <section class="gallery" id="Art">
+        <div class="gallery-head">
+                <h2>Art Gallery     </h2>
+                <p> lets rate the Art</p>
+                <div class="gallery-rate">
+                    <i class="fa-regular fa-star gallery-rate-color"></i>
+                    <i class="fa-regular fa-star gallery-rate-color"></i>
+                    <i class="fa-regular fa-star gallery-rate-color"></i>
+                    <i class="fa-regular fa-star gallery-rate-color"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+        </div>
+        <div>
+            <div class="gallery-of-art">
+                <img src="./image/gallery/galleryitem-1.png" alt="image in gallery" class="hover galleryshodow4">
+                <img src="./image/gallery/galleryitem-2.png" alt="image in gallery" class="hover galleryshodow5">
+                <img src="./image/gallery/galleryitem-3.png" alt="image in gallery" class="hover galleryshodow5">
+                <img src="./image/gallery/galleryitem-4.png" alt="image in gallery" class="hover galleryshodow5">
+                <img src="./image/gallery/galleryitem-5.png" alt="image in gallery" class="hover galleryshodow5">
+                <img src="./image/gallery/galleryitem-6.png" alt="image in gallery" class="hover galleryshodow4">
+                <img src="./image/gallery/galleryitem-7.png" alt="image in gallery" class="hover galleryshodow5">
+                <img src="./image/gallery/galleryitem-8.png" alt="image in gallery" class="hover galleryshodow5">
+                <img src="./image/gallery/galleryitem-9.png" alt="image in gallery" class="hover galleryshodow5">
+                <img src="./image/gallery/galleryitem-10.png" alt="image in gallery" class="hover galleryshodow5">
+                <img src="./image/gallery/galleryitem-12.png" alt="image in gallery" class="hover galleryshodow4">
+                <img src="./image/gallery/galleryitem-13.png" alt="image in gallery" class="hover galleryshodow5">
+                <img src="./image/gallery/galleryitem-14.png" alt="image in gallery" class="hover galleryshodow5">
+                <img src="./image/gallery/galleryitem-15.png" alt="image in gallery" class="hover galleryshodow5">
+                <img src="./image/gallery/galleryitem-11.png" alt="image in gallery" class="hover galleryshodow5">
+            </div>
+            <div class="gallery-more">
+
+            </div>
+        </div>
+     </section>
+
+        <!-- section of Conatct with footer -->
+         <section class="contact" id="Contact">
+            <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sed officia iure aspernatur doloremque nam iusto ipsam provident possimus"
+            </blockquote>
+            <cite>-ali son's-</cite>
+                        <h3>Have a Project?</h3>
+                        <h4>Let's Work together</h4>
+         </section>
+     
+            <!-- Section of footer  -->
+        <footer id="Conatct">
+            <div class="footer-container">
+                <div class="footer-menu">
+                    <ul>
+                        <li         >
+                            <a href="#Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#About">About Us</a>  
+                        </li>
+                        <li>
+                            <a href="#Project">Project</a>
+                        </li>
+                        <li>
+                            <a href="#Art">Art Gallery</a>
+                        </li>
+                    </ul>
+                    <a href="mailto:abc@gmail.com" class="footer-menu-mail">niduarts12@gmail.com</a>
+                    <div class="footer-icons">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook hover"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram hover"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in hover"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="#">
+                            <!-- <img src="./image/logo.png" alt="this is footer logo"> -->
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-inputs">
+
+                    <div class="footer-inputs-search">
+                        <input type="search" placeholder="search here">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+
+                    <div class="footer-inputs-feedback">
+                        <input type="text" name="" id="" placeholder="leave your precious suggution and advice">
+                        <button>summit</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footer-copyright">
+                <p>copy right@2025 | build by blacklover</p>
+                <div class="footer-icons">
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in hover"></i>
+                    </a>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram hover"></i>
+                </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook hover"></i>
+                </div>
+            </div>
+        </footer>
 </body>
+
 </html>
