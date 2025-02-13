@@ -1,0 +1,25 @@
+:root{
+    --main-background-color:(FAF2E4);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--main-background-color);
+}
+.navbar{
+    background-color: red;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.navbar-items ul{
+    display: flex;
+}
+.navbar-items li{
+    list-style: none;
+    gap: 25px;
+    color: var(--main-background-color);
+}
+
