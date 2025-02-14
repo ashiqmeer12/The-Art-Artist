@@ -601,9 +601,9 @@ footer{
 
     body{
         background-color: rgb(249, 186, 130,0.9);
-        justify-content: center;
+        /* justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: center; */
     }
 
  .navbar{
@@ -613,6 +613,7 @@ footer{
         background-color: green;
         /* width:5px 10px; */
         margin-bottom: 115px;
+        width: 100vw;
  }
  .navbar-logo{
     display: inline-block;
@@ -698,7 +699,9 @@ footer{
     width: 100%;
 }
 /* peoject */
-    
+    .project{
+        padding: 10px;
+    }
 .project-intro p{
     display: flex;
     flex-flow: column;
@@ -714,8 +717,11 @@ footer{
     margin: 0;  
     padding: 0;
 }
+.project-details{
+    padding: 0;
+}
 .project-details-second-colom{
-    grid-column: span 2;
+    /* grid-column: span 2;????/? */
     padding: 0px ;
 }
 
