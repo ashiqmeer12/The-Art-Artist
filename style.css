@@ -601,19 +601,17 @@ footer{
 
     body{
         background-color: rgb(249, 186, 130,0.9);
-        /* justify-content: center;
+        justify-content: center;
         align-items: center;
-        text-align: center; */
+        text-align: center;
     }
 
  .navbar{
         display: flex;
         justify-content: space-between;
-        /* position: relative; */
         background-color: green;
-        /* width:5px 10px; */
-        margin-bottom: 115px;
         width: 100vw;
+        margin-bottom: 50px;
  }
  .navbar-logo{
     display: inline-block;
@@ -633,43 +631,45 @@ footer{
  }
  .hero{
     display: block;
+    margin-bottom: 80px;
  }
 
  .hero-section{
     display: block;
     margin: 0;
+    padding: 10px 39px;
+    background-position: 155px 0px;
  }
  .hero-text{
  display: inline;
- width: 350px;
- /* grid-template-columns: 1fr;+ */
+ /* width: 350px; */
  text-align: start;
  }
  .hero-text-style1{
-    /* display: flex; */
-    font-size: 100px;
+    font-size: 80px;
     line-height: 40px;
     font-weight: 100;
-    padding: 0px 30px;
-    /* text-align: start; */
  }
  .hero-text-highlight{
     display: inline;
-    font-size: 35px;
+    font-size: 100px;
+    line-height: 35px;
     padding-left: 5px;
     color: var(--main-background-color);
-    /* text-align: end; */
  }
  .hero-text-style2{
     font-size: 60px;
-    line-height: 0px;
+    line-height: 30px;
     padding-left: 100px;
  }
  .hero-text-style3{
-    font-size: 70px;
+    font-size: 85px;
+    line-height: 10px;
+    padding-left: 40px;
  }
  .hero-text p{
     font-size: 20px;
+    padding: 0;
  }
  .hero-image{
     display: none;
@@ -679,7 +679,19 @@ footer{
     margin: auto;
  }
  .hero-icons{
-    display: inline;
+    display: flex;
+    position: static;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 4px;
+ }
+ .hero-button button{
+    height: 20px;
+    width: 100px;
+    font-size: 10px;
+ }
+ .hero-icons i{
+    font-size: 15px;
  }
 
 
@@ -689,14 +701,22 @@ footer{
 }
 .about h2{
     font-size: 32px;
+    line-height: 20px;
 }
 .about-heading h3{
  font-size: 20px;
 }
+.about-heading p{
+    font-size: 20px;
+    line-height: 20px;
+}
 .about-section-one{
     display: flex;
     flex-flow: column;
+    text-align: center;
+    padding: 0px 20px;
 }
+
 .about-image img {
     position: relative;
     width: 70%;
@@ -706,6 +726,8 @@ footer{
 .about-section-two{
     display: flex;
     flex-flow: column-reverse;
+    text-align: center;
+    padding: 0px 20px;
 }
 .about-image-two img{
     width: 100%;
@@ -739,11 +761,19 @@ footer{
 
 
 /* gallery   */
+.gallery{
+    margin: 0px 0px 80px 0px;
+}
 .gallery-of-art{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
     flex-flow: column;
+    flex-wrap: wrap;
 }
 .gallery-of-art img{
+    display: flex;
+    flex-wrap: wrap-reverse ;
+    flex-shrink: 2;
     width: 100%;
     border-radius: 20px;
 }
@@ -792,6 +822,7 @@ display: none;
     display: none;
 }
 .footer-menu ul{
+    justify-content: center;
     display: flex;
     gap: 10px;
     font-size: small;
