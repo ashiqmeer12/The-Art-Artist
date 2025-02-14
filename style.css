@@ -714,6 +714,11 @@ footer{
     margin: 0;  
     padding: 0;
 }
+.project-details-second-colom{
+    grid-column: span 2;
+    padding: 0px ;
+}
+
 
 /* gallery   */
 .gallery-of-art{
