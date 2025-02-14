@@ -683,13 +683,21 @@ footer{
 .about{
     margin-bottom: 40px;
 }
+.about h2{
+    font-size: 32px;
+}
+.about-heading h3{
+ font-size: 20px;
+}
 .about-section-one{
     display: flex;
     flex-flow: column;
 }
-.about-image {
-    width: 30%;
-    align-self: center;
+.about-image img {
+    position: relative;
+    width: 70%;
+    justify-self: center;
+    align-items: center;
 }
 .about-section-two{
     display: flex;
