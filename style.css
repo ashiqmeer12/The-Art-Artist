@@ -394,10 +394,10 @@ body{
     font-weight: 200    ;
 }
 .gallery-of-art{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     border-radius: 30px;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
     background:var(--color-background);
 
